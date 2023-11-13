@@ -4,7 +4,11 @@ app = Flask(__name__)
 
 heart_data = [
     {"heart_id": 1, "date": "2023-11-13", "heart_rate": 75},
-    {"heart_id": 2, "date": "2023-11-14", "heart_rate": 80},
+    {"heart_id": 2, "date": "2021-12-14", "heart_rate": 97},
+    {"heart_id": 3, "date": "2023-11-15", "heart_rate": 85},
+    {"heart_id": 4, "date": "2023-11-16", "heart_rate": 90},
+    {"heart_id": 5, "date": "2023-11-16", "heart_rate": 105},
+    {"heart_id": 6, "date": "2023-11-16", "heart_rate": 100},
 ]
 
 @app.route('/heart', methods=['POST'])
